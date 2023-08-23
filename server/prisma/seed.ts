@@ -1,4 +1,6 @@
-import { prisma } from '../src/database/database'
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
 
 const firstHabitId = '0730ffac-d039-4194-9571-01aa2aa0efbd'
 const firstHabitCreationDate = new Date('2022-12-31T03:00:00.000')
