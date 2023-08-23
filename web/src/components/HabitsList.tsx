@@ -23,7 +23,7 @@ export function HabitsList({ date, onCompletedChanged }: HabitLisProps) {
   const [habitsInfo, setHabitsInfo] = useState<HabitsInfo>()
 
   useEffect(() => {
-    api.get('day', {
+    api.get('/day', {
       params:{
         date: date.toISOString()
       }
