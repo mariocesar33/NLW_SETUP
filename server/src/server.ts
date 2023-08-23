@@ -9,7 +9,7 @@ app.register(cors);
 app.register(appRoutes);
 
 app.listen({
-  port: 3333,
+  port: 3434,
 }).then(() => {
   console.log("Http Server running 🚀🚀");
 });
